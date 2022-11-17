@@ -47,7 +47,7 @@ $('#volDown').click(function(){
     $('#player').trigger("volDown");
 
     
-      VolumeDown= $("#player").prop('volume',0.1);
+      VolumeDown= $("#player").prop('volume');
       $("#player").prop('volume', VolumeDown-0.1);
 });
 
