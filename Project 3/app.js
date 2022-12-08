@@ -11,7 +11,7 @@ $('#play').click(function(){
 
 //The PAUSE Button
 $('#pause').click(function(){
-  $('#message').text("track paused");
+  $('#message').text("Track Paused");
   $('#player').trigger("pause");
 });
 
