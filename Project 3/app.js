@@ -51,9 +51,7 @@ $('#volDown').click(function(){
       $("#player").prop('volume', VolumeDown-0.1);
 });
 
-    $('#next').click(function(){
-    $('#message').text("Next Track");
-    $('#player').trigger("next");
+   
 
   
 }
